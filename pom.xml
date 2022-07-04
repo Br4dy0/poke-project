@@ -17,12 +17,19 @@
   </properties>
 
   <dependencies>
+		<!-- Required Package For TooTallNate's Websocket Package -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.36</version>
+		</dependency>
+		<!-- TooTallNate's Websocket Package -->
 		<dependency>
 			<groupId>org.java-websocket</groupId>
 			<artifactId>Java-WebSocket</artifactId>
 			<version>1.5.3</version>
 		</dependency>
-
+		<!-- Test Package -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
